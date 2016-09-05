@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "77c18e279a7e32a9323845c2694f4cd4",
+    "content-hash": "dc4e579d5f928b7fd68cb30fb6a8fa1c",
+    "packages": [
+        {
+            "name": "outeredge/sass",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/outeredge/sass.git",
+                "reference": "363874bceea9d1c0df54fbdb20a85bb1f8ba7825"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/outeredge/sass/zipball/363874bceea9d1c0df54fbdb20a85bb1f8ba7825",
+                "reference": "363874bceea9d1c0df54fbdb20a85bb1f8ba7825",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "outer/edge",
+                    "email": "support@outeredgeuk.com"
+                }
+            ],
+            "description": "OuterEdge SASS",
+            "time": "2016-08-04 10:46:42"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,58 @@
+footer
+    font-size: 14px
+    @extend %padding-large
+    > div
+        @extend %row
+        .social-links
+            @extend %margin-bottom
+            a
+                font-size: 30px
+                @extend %text-decoration-none, %text-lightgrey
+                &:not(:last-child)
+                    @extend %margin-right
+                &[class*="facebook"]
+                    &:hover
+                        color: #3b5998
+                &[class*="linkedin"]
+                    &:hover
+                        color: #0077B5
+        a[href*="tel"]
+            font-size: 30px
+            letter-spacing: -1px
+            @extend %text-decoration-none, %text-darkgrey
+        .address
+            @extend %line-height-150, %margin-top
+            a
+                @extend %text-inherit, %text-decoration-none
+            span
+                @extend %not-bold
+        nav
+            @extend %margin-vertical-large
+            > *
+                @extend %margin-top-small
+                a
+                    @extend %text-blue
+
+
+
+@include media(desktop)
+    footer
+        > div
+            @extend %desktop-flex, %desktop-flex-wrap
+            a[href*="tel"]
+                @include flex-order(1)
+            .social-links
+                @extend %desktop-width-50, %desktop-flex-grow, %desktop-text-right, %desktop-margin-bottom-none
+                @include flex-order(2)
+            .address
+                @extend %desktop-width-70, %desktop-text-left
+                @include flex-order(3)
+            nav
+                @extend %desktop-width-30, %desktop-text-right, %desktop-margin-vertical-none
+                @include flex-order(4)
+                > *
+                    &:first-child
+                        @extend %desktop-margin-top-large
+            .copyright
+                @extend %desktop-width-100, %desktop-text-right
+                @include flex-order(5)

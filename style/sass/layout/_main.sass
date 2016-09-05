@@ -1,0 +1,9 @@
+main
+    @extend %padding-vertical-large
+    > *
+        &:not(img)
+            @extend %padding-horizontal-large, %row
+    > img
+        @extend %margin-vertical-large
+    p
+        @extend %line-height-125, %text-grey

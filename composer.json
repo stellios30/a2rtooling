@@ -1,0 +1,8 @@
+{
+    "name": "a2rtooling/a2rtooling",
+    "description": "A2R Tooling Website",
+    "minimum-stability": "dev",
+    "require": {
+        "outeredge/sass": "~2.0.0"
+    }
+}
